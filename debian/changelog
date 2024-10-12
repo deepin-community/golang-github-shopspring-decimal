@@ -1,5 +1,39 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-shopspring-decimal (1.3.1-1) unstable; urgency=medium
 
-  * Initial release
+  [ Sebastian Crane ]
+  * New upstream version 1.3.1
+  * Move package into 'golang' section
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [Shengjing Zhu ]
+  * Bump Standards-Version to 4.6.2 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 18 Jun 2023 18:52:11 +0800
+
+golang-github-shopspring-decimal (1.2.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + golang-github-shopspring-decimal-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 14 Dec 2022 05:29:55 +0000
+
+golang-github-shopspring-decimal (1.2.0-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Shengjing Zhu ]
+  * Update uscan watch file
+  * New upstream version 1.2.0
+  * Update maintainer and uploader email address
+  * Bump Standards-Version to 4.5.0 (no changes)
+  * Add Rules-Requires-Root
+  * Bump debhelper-compat to 12
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 28 Jun 2020 00:08:41 +0800
+
+golang-github-shopspring-decimal (0.0~git20170816.b9ab2bc-1) unstable; urgency=medium
+
+  * Initial release (Closes: #872415)
+
+ -- Shengjing Zhu <i@zhsj.me>  Thu, 17 Aug 2017 16:49:41 +0800
